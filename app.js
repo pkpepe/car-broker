@@ -133,7 +133,7 @@ function handleMessage(sender_psid, received_message) {
       "quick_replies":[
       {
         "content_type":"text",
-        "title":"Red",
+        "title":"Red", 
         "payload":"<POSTBACK_PAYLOAD>",
         "image_url":"http://example.com/img/red.png"
       },
@@ -148,7 +148,7 @@ function handleMessage(sender_psid, received_message) {
   }
   else if (received_message.text == "hello") {
     response = {
-      "text":'Hello..Min Ga Lar Par'
+      "text":'Hello..Min Ga Lar Par Bya. What can I help You?'
     }
   }
   else if (received_message.text == "ni hao") {    
