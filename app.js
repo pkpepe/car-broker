@@ -158,7 +158,7 @@ function handleMessage(sender_psid, received_message) {
       "payload":{
         "template_type":"button",
         "text":"Try the postback button!",
-        "buttons":[
+        "buttons":[ 
           {
             "type":"postback",
             "title":"Sell",
