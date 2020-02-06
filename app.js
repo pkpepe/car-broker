@@ -161,17 +161,17 @@ function handleMessage(sender_psid, received_message) {
         "buttons":[
           {
             "type":"postback",
-            "title":"Button 1",
+            "title":"Sell",
             "payload":"one"
           },
           {
             "type":"postback",
-            "title":"Button 2",
+            "title":"Buy",
             "payload":"two"
           },
           {
             "type":"postback",
-            "title":"Button 3",
+            "title":"Trend",
             "payload":"three"
           }
         ]
