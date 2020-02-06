@@ -148,7 +148,7 @@ function handleMessage(sender_psid, received_message) {
   }
   else if (received_message.text == "hello") {
     response = {
-      "text":'Hello..Min Ga Lar Par Bya. What can I help You?'
+      "text":'Hello..Min Ga Lar Par Shint. What can I help You?'
     }
   }
   else if (received_message.text == "button") {
